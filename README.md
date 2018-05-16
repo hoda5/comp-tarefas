@@ -1,24 +1,28 @@
-# comp-tarefas
+# comp-usuarios
+-- nao é o usuarios do firebase (é uma coleçao nossa)
+-- responsabilidade: listar, cadastrar, editar e remover usuario
+-- nao precisa integrar com a autenticacao do firebase (ainda)
 
 # usar login, pode
 
 # personas: 
-- maria gerente (botao excluir tarefa - nao precisa implementar)
-- ana recepcao (botao excluir tarefa nao vai aparecer)
+- maria gerente (botao excluir usuario - nao precisa implementar)
+- ana recepcao (botao excluir usuario nao vai aparecer)
 
 # cenario
 ```
  tarefas = [
-   {id: 1, descricao: 'comprar arroz', feito: false},
-   {id: 2, descricao: 'publish npm', feito: false}
+   {id: 1, descricao: 'maria', roles: ['gerente', 'exclui-usuario', 'exclui-acomodacao']]},
+   {id: 2, descricao: 'ana', roles: ['recepcao']}
  ]
 ```
 # tela1 - listagem
-  rota: /tarefas
-  listar tarefas
+  rota: /usuarios
+  listar usuarios
   aparecer uma opçao no menu
   
 # tela2 - editar 
-  rota: /tarefas/:tarefaId
-  exibir uma tarefa
+  rota: /usuarios/:usuarioId
+  exibir um usuario
+   
   
