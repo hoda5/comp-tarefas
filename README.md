@@ -1,7 +1,7 @@
 # comp-usuarios
--- nao é o usuarios do firebase (é uma coleçao nossa)
--- responsabilidade: listar, cadastrar, editar e remover usuario
--- nao precisa integrar com a autenticacao do firebase (ainda)
+- nao é o usuarios do firebase (é uma coleçao nossa)
+- responsabilidade: listar, cadastrar, editar e remover usuario
+- nao precisa integrar com a autenticacao do firebase (ainda)
 
 # usar login, pode
 
